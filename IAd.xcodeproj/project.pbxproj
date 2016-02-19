@@ -14,6 +14,7 @@
 		D4CFE1E51C7748C400E608C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4CFE1E31C7748C400E608C4 /* LaunchScreen.storyboard */; };
 		D4CFE1F01C7748C400E608C4 /* IAdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFE1EF1C7748C400E608C4 /* IAdTests.swift */; };
 		D4CFE1FB1C7748C400E608C4 /* IAdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CFE1FA1C7748C400E608C4 /* IAdUITests.swift */; };
+		D4CFE2091C77494700E608C4 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CFE2081C77494700E608C4 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D4CFE1F61C7748C400E608C4 /* IAdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CFE1FA1C7748C400E608C4 /* IAdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAdUITests.swift; sourceTree = "<group>"; };
 		D4CFE1FC1C7748C400E608C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CFE2081C77494700E608C4 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CFE2091C77494700E608C4 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		D4CFE1CE1C7748C400E608C4 = {
 			isa = PBXGroup;
 			children = (
+				D4CFE2081C77494700E608C4 /* iAd.framework */,
 				D4CFE1D91C7748C400E608C4 /* IAd */,
 				D4CFE1EE1C7748C400E608C4 /* IAdTests */,
 				D4CFE1F91C7748C400E608C4 /* IAdUITests */,
